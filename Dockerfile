@@ -21,3 +21,7 @@ RUN make
 RUN make install
 RUN cp /usr/local/lib/libgraph.* /usr/lib
 WORKDIR "/"
+RUN mkdir /Demo
+WORKDIR "/Demo"
+RUN wget https://github.com/trishnaguha/Ubuntu-libgraph/blob/master/test.c
+WORKDIR "/"

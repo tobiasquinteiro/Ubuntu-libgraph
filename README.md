@@ -8,6 +8,7 @@ Pull the image, Run the container
 ## Test a Graphics code
 -----------------------
 
+    cd /Demo
     gcc -o test test.c -lgraph
     ./test
 
