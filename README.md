@@ -5,5 +5,9 @@ Ubuntu image with graphics library installed
 ---------------
 Pull the image, Run the container
 
-``gcc -o test test.c -lgraph``
+## Test a Graphics code
+-----------------------
+
+    gcc -o test test.c -lgraph
+    ./test
 
