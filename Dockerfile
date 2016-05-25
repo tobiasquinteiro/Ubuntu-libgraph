@@ -23,5 +23,5 @@ RUN cp /usr/local/lib/libgraph.* /usr/lib
 WORKDIR "/"
 RUN mkdir /Demo
 WORKDIR "/Demo"
-RUN wget https://github.com/trishnaguha/Ubuntu-libgraph/blob/master/test.c
+RUN wget https://raw.githubusercontent.com/trishnaguha/Ubuntu-libgraph/master/test.c
 WORKDIR "/"
