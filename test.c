@@ -14,7 +14,7 @@ void main()
     printf("Enter the radius of circle: ");
     scanf("%d",&r);
     /* initialize graphics mode */
-    initgraph(&gdriver, &gmode, "");
+    initgraph(&gdriver, &gmode, NULL);
     x = 0;
     y = r;
     symmetry(xc,yc,x,y);
