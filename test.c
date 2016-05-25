@@ -36,17 +36,18 @@ void main()
     }
     outtextxy(120,20,"BRESENHAM'S CIRCLE ALGORITHM");
     outtextxy(xc-25,yc,"(xc,yc)");
+    delay(7000);
     closegraph();
     restorecrtmode();
 }
 void symmetry(int xc,int yc,int x,int y)
 {
-    putpixel(xc+x,yc+y,WHITE);
-    putpixel(xc-x,yc+y,WHITE);
-    putpixel(xc+x,yc-y,WHITE);
-    putpixel(xc-x,yc-y,WHITE);
-    putpixel(xc+y,yc+x,WHITE);
-    putpixel(xc-y,yc+x,WHITE);
-    putpixel(xc+y,yc-x,WHITE);
-    putpixel(xc-y,yc-x,WHITE);
+    putpixel(xc+x,yc+y,RED);
+    putpixel(xc-x,yc+y,RED);
+    putpixel(xc+x,yc-y,RED);
+    putpixel(xc-x,yc-y,RED);
+    putpixel(xc+y,yc+x,RED);
+    putpixel(xc-y,yc+x,RED);
+    putpixel(xc+y,yc-x,RED);
+    putpixel(xc-y,yc-x,RED);
 }
